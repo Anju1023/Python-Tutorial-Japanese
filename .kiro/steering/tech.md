@@ -1,33 +1,33 @@
-# Technology Stack
+# 技術スタック
 
-## Language & Runtime
-- **Python 3.x** - Primary language for the project
-- Standard Python libraries for file operations and string formatting
+## 言語・ランタイム
+- **Python 3.x** - プロジェクトのメイン言語
+- ファイル操作と文字列フォーマット用の標準Pythonライブラリ
 
-## Code Quality & Formatting
-- **Ruff** - Code formatter configured with single quotes
-  - Configuration in `pyproject.toml`
-  - Quote style: single quotes (`'`)
+## コード品質・フォーマット
+- **Ruff** - シングルクォート設定のコードフォーマッター
+  - `pyproject.toml`で設定
+  - クォートスタイル: シングルクォート (`'`)
 
-## Project Structure
-- **pyproject.toml** - Project configuration and tool settings
-- **main.py** - Script for generating tutorial markdown files
+## プロジェクト構造
+- **pyproject.toml** - プロジェクト設定とツール設定
+- **main.py** - チュートリアルマークダウンファイル生成スクリプト
 
-## Common Commands
+## よく使うコマンド
 
-### File Generation
+### ファイル生成
 ```bash
 python main.py
 ```
-Generates all 16 tutorial markdown files in the `translate/` directory with proper naming convention (tutorial_001.md through tutorial_016.md).
+`claude_translate/`ディレクトリに適切な命名規則（tutorial_001.md〜tutorial_016.md）で16個のチュートリアルマークダウンファイルを生成するよ。
 
-### Code Formatting
+### コードフォーマット
 ```bash
 ruff format .
 ```
-Formats Python code according to project standards (single quotes).
+プロジェクト標準（シングルクォート）に従ってPythonコードをフォーマットするよ。
 
-## Development Notes
-- Files are generated programmatically using Python's string formatting
-- UTF-8 encoding is used for all file operations to support Japanese content
-- Tutorial files follow a consistent naming pattern with zero-padded numbers
+## 開発メモ
+- ファイルはPythonの文字列フォーマットを使ってプログラム的に生成される
+- 日本語コンテンツをサポートするため、全ファイル操作でUTF-8エンコーディングを使用
+- チュートリアルファイルはゼロパディングされた数字で一貫した命名パターンに従う

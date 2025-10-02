@@ -1,11 +1,11 @@
-# Product Overview
+# プロダクト概要
 
-This is a Python tutorial translation project that contains Japanese translations of Python programming tutorials. The project consists of 16 tutorial files (tutorial_001.md through tutorial_016.md) that provide comprehensive Python programming education in Japanese.
+このプロジェクトは、Pythonプログラミングチュートリアルの日本語翻訳プロジェクトだよ！16個のチュートリアルファイル（tutorial_001.md〜tutorial_016.md）で、包括的なPython教育コンテンツを日本語で提供してるんだ。
 
-The tutorials cover Python fundamentals from basic concepts to advanced topics like functions, modules, exceptions, and user-defined classes. The content is designed to be educational and accessible, introducing Python as a versatile programming language suitable for automation, GUI applications, and various development tasks.
+チュートリアルは基本概念から関数、モジュール、例外処理、ユーザー定義クラスまでの高度なトピックまでカバーしてるよ。教育的でアクセスしやすいコンテンツになっていて、Pythonを自動化、GUIアプリケーション、様々な開発タスクに適した汎用性の高いプログラミング言語として紹介してるんだ！
 
-## Key Features
-- Comprehensive Python tutorial series in Japanese
-- Structured learning progression from basics to advanced concepts
-- Educational content focused on practical Python applications
-- Tutorial files are generated and managed programmatically
+## 主な特徴
+- 日本語での包括的なPythonチュートリアルシリーズ
+- 基礎から応用まで構造化された学習進行
+- 実践的なPythonアプリケーションに焦点を当てた教育コンテンツ  
+- プログラムで生成・管理されるチュートリアルファイル

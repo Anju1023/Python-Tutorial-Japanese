@@ -1,42 +1,42 @@
-# Project Structure
+# プロジェクト構造
 
-## Root Directory
+## ルートディレクトリ
 ```
-├── main.py              # Tutorial file generator script
-├── pyproject.toml       # Project configuration and tool settings
-└── translate/           # Tutorial content directory
-    ├── tutorial_001.md  # Tutorial 1: Introduction to Python
-    ├── tutorial_002.md  # Tutorial 2: [Content varies]
+├── main.py              # チュートリアルファイル生成スクリプト
+├── pyproject.toml       # プロジェクト設定とツール設定
+└── claude_translate/    # チュートリアルコンテンツディレクトリ
+    ├── tutorial_001.md  # チュートリアル1: Pythonの紹介
+    ├── tutorial_002.md  # チュートリアル2: [内容は様々]
     ├── ...
-    └── tutorial_016.md  # Tutorial 16: [Final tutorial]
+    └── tutorial_016.md  # チュートリアル16: [最終チュートリアル]
 ```
 
-## Directory Organization
+## ディレクトリ構成
 
-### `/translate/`
-Contains all tutorial markdown files in Japanese. Files follow a strict naming convention:
-- Pattern: `tutorial_XXX.md` where XXX is zero-padded number (001-016)
-- Each file contains a single tutorial chapter
-- Files include HTML comment headers with their filepath
-- Content is educational Python programming material in Japanese
+### `/claude_translate/`
+日本語のチュートリアルマークダウンファイルが全部入ってるよ。ファイルは厳密な命名規則に従ってる：
+- パターン: `tutorial_XXX.md` （XXXはゼロパディングされた数字 001-016）
+- 各ファイルには単一のチュートリアル章が含まれる
+- ファイルにはファイルパスを含むHTMLコメントヘッダーが含まれる
+- 内容は日本語の教育的Pythonプログラミング素材
 
-### Root Files
-- **main.py**: Simple script that generates the tutorial file structure
-- **pyproject.toml**: Minimal configuration focusing on code formatting rules
+### ルートファイル
+- **main.py**: チュートリアルファイル構造を生成するシンプルなスクリプト
+- **pyproject.toml**: コードフォーマットルールに焦点を当てた最小限の設定
 
-## File Naming Conventions
-- Tutorial files: `tutorial_XXX.md` (zero-padded 3-digit numbers)
-- Python files: Standard snake_case naming
-- Configuration files: Standard naming (pyproject.toml)
+## ファイル命名規則
+- チュートリアルファイル: `tutorial_XXX.md` （ゼロパディングされた3桁数字）
+- Pythonファイル: 標準のsnake_case命名
+- 設定ファイル: 標準命名 (pyproject.toml)
 
-## Content Structure
-- Each tutorial file starts with an HTML comment containing its filepath
-- Japanese content follows with proper markdown formatting
-- Tutorials are numbered sequentially from 001 to 016
-- Content covers Python fundamentals to advanced topics
+## コンテンツ構造
+- 各チュートリアルファイルはファイルパスを含むHTMLコメントで始まる
+- 適切なマークダウンフォーマットで日本語コンテンツが続く
+- チュートリアルは001から016まで順番に番号付けされる
+- 内容はPythonの基礎から高度なトピックまでカバー
 
-## Development Workflow
-1. Modify `main.py` if tutorial structure needs changes
-2. Run `python main.py` to regenerate tutorial files
-3. Edit individual tutorial content in `/translate/` directory
-4. Use `ruff format .` to maintain code style consistency
+## 開発ワークフロー
+1. チュートリアル構造を変更する必要がある場合は`main.py`を修正
+2. `python main.py`を実行してチュートリアルファイルを再生成
+3. `/claude_translate/`ディレクトリで個別のチュートリアルコンテンツを編集
+4. `ruff format .`を使ってコードスタイルの一貫性を保つ
