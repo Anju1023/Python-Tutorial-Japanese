@@ -1,3 +1,14 @@
+---
+title: "12. 仮想環境とパッケージ"
+chapter: 12
+section: "開発環境"
+prev_chapter: 11
+next_chapter: 13
+exam_weight: "中"
+key_concepts: ["仮想環境", "venv", "pip", "パッケージ管理", "requirements.txt"]
+estimated_time: "35分"
+---
+
 <!-- claude_translate/tutorial_012.md -->
 
 # Python仮想環境とパッケージ管理 - 詳しい解説版
@@ -346,18 +357,37 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-### 試験対策で特に重要な箇所
-1. **仮想環境が必要な理由**: バージョン競合の解決
-2. **venvモジュール**: 仮想環境の作成に使う
-3. **有効化コマンド**: OS別に異なる（Windows vs Unix/Mac）
-4. **pip freeze**: requirements.txt形式で出力する
-5. **pip install -r**: requirements.txtからインストール
-6. **バージョン指定**: `==`を使う（例：`requests==2.6.0`）
-7. **アップグレード**: `--upgrade`オプションを使う
+---
+
+## 📝 この章の重要ポイント
+
+### 🎯 試験頻出ポイント
+- **仮想環境の必要性**: バージョン競合の解決、プロジェクト間の分離
+- **venvモジュール**: `python -m venv 環境名`で仮想環境作成
+- **アクティベート**: Windows `Scripts\activate`、Unix `bin/activate`
+- **pip**: パッケージ管理ツール、`install`、`uninstall`、`list`、`freeze`
+- **requirements.txt**: パッケージ一覧の管理、環境の再現
+
+### 💡 覚えておくべきキーワード
+- **仮想環境**: プロジェクト専用のPython環境
+- **アクティベート**: 仮想環境を有効にする操作
+- **deactivate**: 仮想環境を無効にする
+- **pip freeze**: インストール済みパッケージ一覧を出力
+- **PyPI**: Python Package Index、パッケージの公式リポジトリ
+
+### ⚡ よくある間違い
+- **グローバル環境への直接インストール**: 仮想環境を使わずにパッケージをインストール
+- **アクティベート忘れ**: 仮想環境を作成したがアクティベートしていない
+- **requirements.txtの更新忘れ**: パッケージ追加後にrequirements.txtを更新しない
+- **異なるOS間での環境移行**: パスの違いに注意
 
 ### よくある使い方のパターン
 - **新規プロジェクト**: venv作成 → 有効化 → パッケージインストール → freeze
 - **既存プロジェクト**: venv作成 → 有効化 → `pip install -r requirements.txt`
 - **パッケージ追加**: pip install → freeze（requirements.txt更新）
+
+---
+
+**次の章**: [13. 次にどうする？](tutorial_013.md)
 
 これでvenvとpipの使い方はバッチリだね！実務でもめっちゃ使うから、しっかり覚えておくといいよ( ˶'ᵕ'˶)♡

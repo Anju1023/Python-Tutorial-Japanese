@@ -1,3 +1,14 @@
+---
+title: "11. Python標準ライブラリ入門 Part2"
+chapter: 11
+section: "標準ライブラリ"
+prev_chapter: 10
+next_chapter: 12
+exam_weight: "中"
+key_concepts: ["高度なモジュール", "フォーマット", "テンプレート", "マルチスレッド", "ログ"]
+estimated_time: "45分"
+---
+
 <!-- claude_translate/tutorial_011.md -->
 
 # Python標準ライブラリ入門 Part2 - 詳しい解説版
@@ -560,5 +571,33 @@ Decimal('0.142857142857142857142857142857142857')
 3. **logging**のレベルの順序（DEBUG→INFO→WARNING→ERROR→CRITICAL）
 4. **decimal**が浮動小数点より正確な理由
 5. **deque**は両端操作が高速、**heapq**は最小値取得が高速
+
+---
+
+## 📝 この章の重要ポイント
+
+### 🎯 試験頻出ポイント
+- **フォーマット系**: `reprlib`、`pprint`、`textwrap`、`locale`
+- **テンプレート**: `string.Template`の`substitute()`と`safe_substitute()`
+- **マルチスレッド**: `threading`、`queue.Queue`でスレッド間通信
+- **ログ**: `logging`モジュールの基本的な使い方
+- **データ構造**: `collections.deque`、`heapq`
+
+### 💡 覚えておくべきキーワード
+- **`reprlib.repr()`**: 大きなデータの省略表示
+- **`pprint.pprint()`**: 構造化されたデータの整形表示
+- **`collections.deque`**: 両端操作が高速なデータ構造
+- **`heapq`**: ヒープキューアルゴリズム、最小値の高速取得
+- **`decimal.Decimal`**: 正確な10進数計算
+
+### ⚡ よくある間違い
+- **`Template`の変数**: `$variable`形式、辞書で値を渡す
+- **スレッドの同期**: `queue.Queue`を使って安全にデータ交換
+- **`deque`の用途**: リストの先頭操作が多い場合に使用
+- **`Decimal`の必要性**: 金融計算など正確性が重要な場面
+
+---
+
+**次の章**: [12. 仮想環境とパッケージ](tutorial_012.md)
 
 これで試験勉強バッチリだよ！頑張ってね(  ˶'ᵕ'˶)♡

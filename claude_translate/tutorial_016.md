@@ -1,3 +1,14 @@
+---
+title: "16. 付録"
+chapter: 16
+section: "付録"
+prev_chapter: 15
+next_chapter: null
+exam_weight: "低"
+key_concepts: ["実行可能スクリプト", "スタートアップファイル", "カスタマイズ", "エラー処理"]
+estimated_time: "20分"
+---
+
 <!-- claude_translate/tutorial_016.md -->
 
 # 16. 付録
@@ -202,4 +213,53 @@ Pythonを起動して、このコードを実行します：
 - **スクリプト配布**: Unixで実行可能にして`./script.py`で実行
 - **環境設定**: usercustomizeでデフォルト設定をカスタマイズ
 
-これで付録も完璧だね！チュートリアル全部終わったんじゃない？٩(°̀ᗝ°́)و
+---
+
+## 📝 この章の重要ポイント
+
+### 🎯 試験頻出ポイント
+- **実行可能スクリプト**: Unix系では`#!/usr/bin/env python3`が必要
+- **エラー処理**: 標準エラーストリームへの出力、終了ステータス
+- **割り込み処理**: `KeyboardInterrupt`例外の発生
+- **スタートアップファイル**: `PYTHONSTARTUP`環境変数
+- **カスタマイズモジュール**: `usercustomize`、`sitecustomize`
+
+### 💡 覚えておくべきキーワード
+- **シバン行**: `#!/usr/bin/env python3`でインタープリタを指定
+- **PYTHONSTARTUP**: インタラクティブセッション開始時に実行されるファイル
+- **usercustomize**: ユーザー固有のカスタマイズモジュール
+- **sitecustomize**: システム全体のカスタマイズモジュール
+- **site-packages**: パッケージがインストールされるディレクトリ
+
+### ⚡ よくある間違い
+- **シバン行の位置**: ファイルの最初の行でないとエラー
+- **実行権限の設定忘れ**: `chmod +x`で実行可能にする必要
+- **スタートアップファイルの場所**: 環境変数で指定したパスに配置
+- **カスタマイズの影響範囲**: usercustomizeは個人、sitecustomizeは全体
+
+### 実用的な使用例
+```bash
+# 実行可能スクリプトの作成（Unix系）
+#!/usr/bin/env python3
+print("Hello, World!")
+
+# 実行権限の付与
+chmod +x script.py
+
+# 直接実行
+./script.py
+```
+
+```python
+# usercustomize.pyの例
+import sys
+print(f"Python {sys.version} started")
+```
+
+---
+
+**🎉 チュートリアル完了！**
+
+これで付録も完璧だね！全16章のPythonチュートリアルが完成したよ٩(°̀ᗝ°́)و
+
+あんじゅ、Python3エンジニア認定基礎試験の準備はバッチリだね！頑張って！( ˶'ᵕ'˶)♡
