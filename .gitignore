@@ -203,5 +203,13 @@ $RECYCLE.BIN/
 *.backup
 *.old
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
 # Project specific
 # Add any project-specific files or directories to ignore here
