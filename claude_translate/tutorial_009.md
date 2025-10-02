@@ -1,3 +1,14 @@
+---
+title: "9. クラス"
+chapter: 9
+section: "オブジェクト指向"
+prev_chapter: 8
+next_chapter: 10
+exam_weight: "高"
+key_concepts: ["class定義", "__init__", "継承", "self", "特殊メソッド"]
+estimated_time: "60分"
+---
+
 <!-- claude_translate/tutorial_009.md -->
 
 # 9. クラス (Classes)

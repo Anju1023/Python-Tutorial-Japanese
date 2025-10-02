@@ -1,3 +1,14 @@
+---
+title: "3. Pythonの非公式入門"
+chapter: 3
+section: "Python基礎"
+prev_chapter: 2
+next_chapter: 4
+exam_weight: "高"
+key_concepts: ["数値演算", "文字列操作", "リスト", "インデックス", "スライス"]
+estimated_time: "40分"
+---
+
 <!-- claude_translate/tutorial_003.md -->
 
 # 3. Pythonの非公式入門

@@ -1,3 +1,14 @@
+---
+title: "5. データ構造"
+chapter: 5
+section: "Python基礎"
+prev_chapter: 4
+next_chapter: 6
+exam_weight: "高"
+key_concepts: ["リストメソッド", "タプル", "セット", "辞書", "内包表記"]
+estimated_time: "50分"
+---
+
 <!-- claude_translate/tutorial_005.md -->
 
 # 5. データ構造

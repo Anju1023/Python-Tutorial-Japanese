@@ -1,3 +1,14 @@
+---
+title: "7. 入出力"
+chapter: 7
+section: "実践"
+prev_chapter: 6
+next_chapter: 8
+exam_weight: "中"
+key_concepts: ["ファイル操作", "文字列フォーマット", "JSON", "with文", "エンコーディング"]
+estimated_time: "30分"
+---
+
 <!-- claude_translate/tutorial_007.md -->
 
 # 7. 入出力

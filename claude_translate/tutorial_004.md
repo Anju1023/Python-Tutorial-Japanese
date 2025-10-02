@@ -1,3 +1,14 @@
+---
+title: "4. もっと制御フローツール"
+chapter: 4
+section: "Python基礎"
+prev_chapter: 3
+next_chapter: 5
+exam_weight: "高"
+key_concepts: ["if文", "for文", "while文", "関数定義", "スコープ", "lambda"]
+estimated_time: "45分"
+---
+
 <!-- claude_translate/tutorial_004.md -->
 
 # 4. もっと制御フローツール

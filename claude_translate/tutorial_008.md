@@ -1,3 +1,14 @@
+---
+title: "8. エラーと例外"
+chapter: 8
+section: "実践"
+prev_chapter: 7
+next_chapter: 9
+exam_weight: "高"
+key_concepts: ["try/except", "例外の種類", "finally", "raise", "ユーザー定義例外"]
+estimated_time: "35分"
+---
+
 <!-- claude_translate/tutorial_008.md -->
 
 # 8. エラーと例外

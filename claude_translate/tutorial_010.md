@@ -1,3 +1,14 @@
+---
+title: "10. Python標準ライブラリ入門 Part1"
+chapter: 10
+section: "標準ライブラリ"
+prev_chapter: 9
+next_chapter: 11
+exam_weight: "中"
+key_concepts: ["os", "sys", "math", "random", "datetime", "json"]
+estimated_time: "45分"
+---
+
 <!-- claude_translate/tutorial_010.md -->
 
 # Python標準ライブラリ入門 Part1 - 詳しい解説版

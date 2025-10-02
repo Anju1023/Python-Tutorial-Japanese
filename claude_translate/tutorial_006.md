@@ -1,3 +1,14 @@
+---
+title: "6. モジュール"
+chapter: 6
+section: "実践"
+prev_chapter: 5
+next_chapter: 7
+exam_weight: "高"
+key_concepts: ["import文", "パッケージ", "__name__", "モジュール検索パス"]
+estimated_time: "35分"
+---
+
 <!-- claude_translate/tutorial_006.md -->
 
 # 6. モジュール
